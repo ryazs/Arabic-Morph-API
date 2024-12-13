@@ -1,4 +1,4 @@
-# Arabic Morphology Prediction API
+# Arabic Morph Prediction API
 
 This repository contains an API built with **FastAPI** to predict Arabic word morphology, including:
 1. **Jamid** or **Musytaq** classification.
