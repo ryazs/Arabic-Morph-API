@@ -15,11 +15,6 @@ venv/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Ignore model files (besar dan sudah diupload terpisah)
-*.h5
-*.pkl
-*.joblib
-
 # Ignore Docker-related files
 *.log
 *.pid
