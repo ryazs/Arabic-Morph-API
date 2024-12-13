@@ -36,12 +36,12 @@ The API is designed to support machine learning models trained using **TensorFlo
 │   ├── arabic_verb_model.h5   # Arabic verb prediction model
 ├── models/
 │   ├── prediction.py          # Prediction settings
+├── services/
+│   ├── model.py               # Model loading and prediction logic
 ├── utils/
 │   ├── tokenizer.pickle       # Tokenizer for Arabic verb model
 │   ├── vectorizer.pkl         # Vectorizer for Jamid/Musytaq model
 │   ├── label_encoders.pickle  # Label encoders for verb prediction
-├── services/
-│   ├── model.py               # Model loading and prediction logic
 ├── .gitignore                 
 ├── .dockerignore              
 ├── Dockerfile                 # Docker setup
