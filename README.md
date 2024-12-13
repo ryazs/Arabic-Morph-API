@@ -1,6 +1,3 @@
-Berikut adalah template **README.md** yang dirancang untuk repo API Anda. Anda dapat menyesuaikannya sesuai dengan kebutuhan.
-
-```markdown
 # Arabic Morphology Prediction API
 
 This repository contains an API built with **FastAPI** to predict Arabic word morphology, including:
@@ -162,5 +159,3 @@ gcloud run deploy api-arabic \
 - **Google Cloud** for hosting and deployment.
 
 ---
-
-Feel free to update any placeholders (like repo names, URLs, etc.) and add more specific details as needed!
