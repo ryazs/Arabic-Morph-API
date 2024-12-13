@@ -42,8 +42,11 @@ The API is designed to support machine learning models trained using **TensorFlo
 │   ├── label_encoders.pickle  # Label encoders for verb prediction
 ├── services/
 │   ├── model.py               # Model loading and prediction logic
-├── main.py                    # Application entry point
+├── .gitignore                 
+├── .dockerignore              
 ├── Dockerfile                 # Docker setup
+├── deploy.sh                  # My deploy references
+├── main.py                    # Application entry point
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 ```
@@ -109,7 +112,7 @@ Predict the Arabic verb forms (**Madhi**, **Mudhari**, and **Amar**).
 
 #### Request:
 ```json
-POST /predict2
+POST /predict_arabic_verb
 Content-Type: application/json
 {
   "text": "أكل"
