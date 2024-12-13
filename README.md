@@ -104,7 +104,7 @@ Content-Type: application/json
 
 ---
 
-### 2. `/predict2`
+### 2. `/predict_arabic_verb`
 Predict the Arabic verb forms (**Madhi**, **Mudhari**, and **Amar**).
 
 #### Request:
